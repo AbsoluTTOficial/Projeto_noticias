@@ -1,0 +1,22 @@
+{
+  "name": "portal_noticias",
+  "version": "1.0.0",
+  "description": "site de noticias",
+  "main": "noticias.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbsoluTTOficial/Aulas-NodeJS.git"
+  },
+  "author": "Vinicius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbsoluTTOficial/Aulas-NodeJS/issues"
+  },
+  "homepage": "https://github.com/AbsoluTTOficial/Aulas-NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
