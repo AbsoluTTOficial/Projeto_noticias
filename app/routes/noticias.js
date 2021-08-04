@@ -11,11 +11,14 @@ module.exports = function(app){
             database : 'portal_noticias'
         });
 
-        connection.query('select * from noticias', function(error, result){
-                res.send(result);
-            });
+        connection.query('select * from noticias', function(err, result){
+            console.log(result);
+            console.log(err);
+            res.send(result);
+        });
 
-
-        //res.render("noticias/noticias.ejs")
+        //connection.query('select * from noticias', function(error, result){
+        //        res.render("noticias/noticias", {noticias : result});
+        //    });
     });
 };
