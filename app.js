@@ -7,4 +7,5 @@ var rotaFormInclusaoNoticia = require('./app/routes/formulario_inclusao_noticia'
 
 app.listen(3000, function(){
     console.log('Servidor ON');
+    //nodemon app.js | to start
 });
