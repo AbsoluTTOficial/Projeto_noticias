@@ -1,5 +1,3 @@
-//var dbConnection = require('../../config/dbConnection.js');
-
 module.exports = function(app){
 
     app.get('/noticias', function(req, res){
